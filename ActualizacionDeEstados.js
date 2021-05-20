@@ -1,6 +1,6 @@
 
 import dentalinkKey from './key.js'
-console.log(dentalinkKey)
+
 
 // Obtenemos el botón a partir de su id. En este caso lo llamaremos testButton
 var button = document.getElementById('mainButton');
