@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f5f9;
+  color: rgb(65, 65, 65);
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+.div__titulo {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container__design {
+  border: 2px solid #8bc34a;
+  width: 400px;
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.div__input1 {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div__input1--textoCitas {
+  outline: none;
+}
+
+.div__input1--button {
+  margin: 20px;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  padding: 6px 6px;
+  border: 0px;
+  color: white;
+  height: 40px;
+  width: 60%;
+  align-self: center;
+  font-size: 16px;
+}
+
+.div__input1--button:hover {
+  background-color: rgb(107, 156, 9);
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #8bc34a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__img {
+  margin: 15px 15px;
+}
